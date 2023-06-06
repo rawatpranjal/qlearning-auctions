@@ -1,0 +1,34 @@
+Research Question: Is algorithmic collusion possible in multi-period auctions? What kind of market design can eliminate this? 
+
+
+Experimental setup: common valuation and so collusion is when winning bid is below valuation (index 4). 
+
+Exp1: Single q-learner + FPA + copycat -> agent learns to play optimally.
+Exp2: Single q-learner + SPA + copycat -> agent learns to play optimally. 
+Exp3: Single q-learner + FPA + smart copycat -> agent learns to play optimally.
+Exp4: Single q-learner + FPA + smart copycat -> agent learns to play optimally.
+Exp5: Double q-learner + FPA -> collusion 3/4
+Exp6: Double q-learner + SPA -> no collusion 
+Exp7: Double q-learner + FPA + reveal winning bid -> collusion 3/4
+Exp8: Double q-learner + SPA + reveal winning bid -> no collusion 
+Exp9: Double q-learner + FPA + reveal winning bid + discounting -> 
+Exp10: Double q-learner + SPA + reveal winning bid + discounting -> 
+Exp11: Double q-learner + FPA + very delayed ->  
+Exp12: Double q-learner + SPA + very delayed -> 
+Exp11: Double q-learner + FPA + very delayed + discounting -> 
+Exp12: Double q-learner + SPA + very delayed + discounting -> 
+Exp13: Double q-learner + FPA + reveal winning bid + very delayed -> 
+Exp14: Double q-learner + SPA + reveal winning bid + very delayed -> 
+Exp15: Double q-learner + FPA + reveal winning bid + very delayed + discounting ->   
+Exp16: Double q-learner + SPA + reveal winning bid + very delayed + discounting -> 
+Exp17: Double q-learner + FPA + reveal oppn max bid -> 
+Exp18: Double q-learner + SPA + reveal oppn max bid -> 
+Exp19: Double q-learner + FPA + reveal oppn max bid + discounting-> 
+Exp20: Double q-learner + SPA + reveal oppn max bid + discounting-> 
+Exp21: Double q-learner + immediate FPA -> collusion
+Exp22: Double q-learner + immediate SPA -> no collusion
+Exp23: Double q-learner + immediate FPA + reveal winning bid -> collusion 3/4
+Exp24: Double q-learner + immediate SPA + reveal winning bid -> no collusion
+Exp25: Double q-learner + immediate FPA + reveal winning bid + discounting -> collusion 0/4
+Exp26: Double q-learner + immediate SPA + reveal winning bid + discounting -> no collusion
+Exp27: Double q-learner + SPA + high granularity -> 
