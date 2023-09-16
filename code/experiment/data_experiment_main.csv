@@ -1,0 +1,2 @@
+,bid2val,episode,Y_std,Y_min,Y_max,N,alpha,gamma,egreedy,asynchronous,design,feedback,num_actions,decay
+0,1.0,10000,0.0,1.0,1.0,10,0.1,0.99,0,1,0.5,1,31,0.999
